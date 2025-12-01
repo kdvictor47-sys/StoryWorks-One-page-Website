@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact & Team – Storyworks</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body class="page-contact">
+<header class="site-header">
+    <div class="container header-inner">
+        <div class="logo">
+            <span class="logo-mark">S</span>
+            <span class="logo-text">Storyworks</span>
+        </div>
+        <nav class="main-nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="features.html">Features</a></li>
+                <li><a href="contact.html" class="active">Contact & Team</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<main>
+    <section class="subpage-hero section-dark">
+        <div class="container">
+            <h1>Get in touch & meet the team</h1>
+            <p>
+                Storyworks is exploring how StoryToDesign Spec could support Innovate By Day’s storytelling.
+                Use the form below to share feedback or interest in the concept.
+            </p>
+        </div>
+    </section>
+
+    <!-- Contact form -->
+    <section class="section-light">
+        <div class="container two-column stacked-on-mobile">
+            <div>
+                <h2>Contact us</h2>
+                <p>
+                    This form is for demonstration purposes. In a real deployment, it could be used by
+                    Innovate By Day’s clients to request access to the StoryToDesign Spec tool or to share
+                    ideas for future features.
+                </p>
+
+                <form id="contact-form" novalidate>
+                    <div class="form-group">
+                        <label for="name">Name<span class="required">*</span></label>
+                        <input type="text" id="name" name="name" placeholder="Your name">
+                        <p class="error-message" id="error-name"></p>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email<span class="required">*</span></label>
+                        <input type="email" id="email" name="email" placeholder="you@example.com">
+                        <p class="error-message" id="error-email"></p>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Message<span class="required">*</span></label>
+                        <textarea id="message" name="message" rows="4" placeholder="Tell us your thoughts or questions about StoryToDesign Spec."></textarea>
+                        <p class="error-message" id="error-message"></p>
+                    </div>
+
+                    <button type="submit" class="btn primary-btn">Send message</button>
+                    <p class="form-success-message" id="form-success"></p>
+                </form>
+            </div>
+
+            <!-- About / Team -->
+            <aside class="card">
+                <h2>About Storyworks</h2>
+                <p>
+                    Storyworks is a conceptual project exploring how AI can support creative agencies in
+                    reducing friction between client storytelling and production workflows.
+                </p>
+
+                <h3>Mission</h3>
+                <p>
+                    To help teams like Innovate By Day spend less time decoding client requests and more time
+                    crafting meaningful, brand-aligned stories.
+                </p>
+
+                <h3>Team</h3>
+                <ul class="team-list">
+                    <li>
+                        <strong>Ioanna, Creative Technologist</strong> – Leads the integration of AI tools into
+                        existing digital workflows.
+                    </li>
+                    <li>
+                        <strong>Shanice Bromfield, UX Researcher</strong> – Studies client and producer pain points to refine
+                        the adaptive form experience.
+                    </li>
+                    <li>
+                        <strong>Jiang Haoran, PM and Story Strategist</strong> – Ensures outputs stay aligned with brand values
+                        and narrative goals.
+                    </li>
+                    <li>
+                        <strong>Mattew Graham, Marketing Lead</strong> - Ensures the brand's uniqueness, authenticity and empowers marketing campaign.
+                    </li>
+                    <li>
+                        <strong>Ayon Mukherjee, Advertising Lead</strong> - Competitor researcher, advertisement designer and campaign strattegist.
+                    </li>
+                </ul>
+            </aside>
+        </div>
+    </section>
+</main>
+
+<footer class="site-footer">
+    <div class="container footer-inner">
+        <p>Storyworks – Contact & Team</p>
+    </div>
+</footer>
+</body>
+</html>
